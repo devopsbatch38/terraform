@@ -11,6 +11,9 @@ terraform {
 
 provider "azurerm" {
   features {}
+
+  subscription_id = "5ce8f6e7-670b-4ecc-a32d-3ad5c4c3ccef"
+  tenant_id       = "c7eccf1e-beae-4d60-bbe7-19652a04aac0"
 }
 
 resource "azurerm_resource_group" "jenkins_rg" {
