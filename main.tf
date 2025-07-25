@@ -1,5 +1,5 @@
 provider "azurerm" {
-  features = {}
+  features {}
 
   client_id       = "222fe6cf-c546-4539-b2c8-3eb59e5feed2"
   client_secret   = "dm18Q~29B1NTmY0o5FrPxyHaIIdFI6M~RsIdEcSB"
